@@ -4,7 +4,7 @@
 }
 
 nav {
-  padding: 30px 3%;
+  padding: 30px 20px;
   justify-content: space-between;
   background: transparent;
   top: 0;
@@ -62,6 +62,16 @@ nav {
 }
 .nav-right img {
   display: none;
+}
+
+@media (max-width: 1200px) {
+  .nav-right button {
+    width: 100px;
+  }
+
+  .nav-left{
+    margin-right: 5%;
+  }
 }
 
 @media (max-width: 900px) {
