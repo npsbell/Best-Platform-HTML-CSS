@@ -1,0 +1,372 @@
+.Everything {
+  height: 1000px;
+  padding: 4% 4%;
+  justify-content: space-between;
+}
+
+/* ------------everything-left--------- */
+
+.everything-left {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+}
+
+.everything-left .yellow-icon {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  object-fit: contain;
+  top: 13%;
+  left: 10%;
+}
+
+.everything-left .blue-icon {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  bottom: 8%;
+  right: 5%;
+}
+
+.everything-left .center-pic {
+  width: 70%;
+  height: 80%;
+  object-fit: contain;
+  z-index: 10;
+  justify-content: center;
+}
+
+.everything-left .left-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.everything-left .left-box .incomes {
+  position: absolute;
+  width: 280px;
+  height: 170px;
+  background: #ffffff;
+  box-shadow: 0px 29.73px 68.22px 0px #0000000d;
+  border-radius: 10px;
+  z-index: 20;
+  padding: 15px;
+  top: 15%;
+  right: 3%;
+}
+
+.everything-left .left-box .incomes p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 450;
+}
+
+.everything-left .left-box .incomes h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #333333;
+  margin-top: 15px;
+}
+
+.everything-left .left-box .incomes h3 span {
+  font-size: 15px;
+  color: #1ecaab;
+  margin-left: 15px;
+}
+
+.everything-left .left-box .incomes .vector {
+  width: 230px;
+  margin-top: 15px;
+}
+
+.everything-left .left-box .totalLikes {
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  background: #ffffff;
+  border-radius: 10px;
+  z-index: 20;
+  padding: 15px;
+  box-shadow: 0px 26.65px 61.13px 0px #0000000d;
+  left: 0;
+  top: 35%;
+}
+
+.everything-left .totalLink-icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.everything-left .totalLink-text {
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.everything-left .totalLink-text p {
+  font-size: 13px;
+  font-weight: 450;
+  margin-top: 5px;
+}
+
+.everything-left .bg-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.everything-left .icon {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  left: 35%;
+  top: 30%;
+}
+
+.everything-left .saturday {
+  position: absolute;
+  width: 350px;
+  height: 230px;
+  background: #ffffff;
+  border-radius: 10px;
+  z-index: 20;
+  padding: 15px;
+  box-shadow: 0px 21.11px 50px 0px #0000001a;
+  right: 5%;
+  bottom: 15%;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
+
+.everything-left .saturday .icons {
+  gap: 10px;
+}
+
+.everything-left .saturday h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #183b56;
+}
+
+.everything-left .saturday p {
+  font-size: 17px;
+  font-weight: 450;
+}
+
+.everything-left .sat-button .button-post {
+  font-family: "Roboto", sans-serif;
+  width: 130px;
+  height: 47px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  color: #ffffff;
+  background: #6a99ff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.everything-left .sat-button .button-see {
+  font-family: "Roboto", sans-serif;
+  width: 130px;
+  height: 47px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  color: #6a99ff;
+  background: rgb(225, 235, 250);
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* ------------everything-right--------- */
+
+.everything-right {
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 3%;
+}
+
+.everything-right h1 {
+  position: relative;
+  font-size: 48px;
+  font-weight: 900;
+  width: 420px;
+  align-self: flex-start;
+}
+
+.everything-right h1 .box-crop {
+  position: absolute;
+  width: 25%;
+  height: 50%;
+  border: 1px solid #ff7342;
+  background: #ff734233;
+  right: 11%;
+  bottom: 0;
+}
+
+.everything-right .box-section {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.everything-right .box-section .box {
+  width: 90%;
+  height: 70px;
+  background: #fff3ef;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.everything-right .box-section .org-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ff7342;
+  margin-left: 25px;
+  margin-right: 15px;
+}
+
+.everything-right .box-section .box h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #3b3b3b;
+}
+
+.everything-right .box-section .box img {
+  width: 18px;
+  height: 17px;
+  margin-right: 40px;
+}
+
+.everything-right button {
+  width: 200px;
+  height: 64px;
+  border-radius: 4px;
+  background: #ff7342;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  outline: 0;
+  color: #ffffff;
+  align-self: flex-start;
+}
+
+@media (max-width: 900px) {
+  .Everything {
+    height: 953px;
+    flex-direction: column;
+    padding: 2% 3%;
+  }
+
+  .everything-left {
+    width: 100%;
+    height: 40%;
+  }
+
+  .everything-left .left-box .incomes {
+    width: 141px;
+    height: 93px;
+    padding: 10px;
+  }
+
+  .everything-left .left-box .incomes p {
+    font-size: 7px;
+  }
+
+  .everything-left .left-box .incomes h3 {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .everything-left .left-box .incomes h3 span {
+    font-size: 7px;
+  }
+
+  .everything-left .left-box .incomes h3 span img {
+    width: 7px;
+    height: 7px;
+  }
+
+  .everything-left .left-box .incomes .vector {
+    width: 105px;
+    margin-top: 5px;
+  }
+
+  .everything-left .left-box .totalLikes {
+    width: 175px;
+    height: 96px;
+  }
+
+  .everything-left .totalLink-text {
+    margin-left: 10px;
+  }
+
+  .everything-left .saturday {
+    width: 174px;
+    height: 124px;
+    padding: 10px;
+  }
+
+  .everything-left .saturday .icons img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .everything-left .saturday h3 {
+    font-size: 12px;
+  }
+
+  .everything-left .saturday p {
+    font-size: 7px;
+  }
+
+  .everything-left .sat-button .button-post {
+    width: 65px;
+    height: 21px;
+    font-size: 7px;
+    border-radius: 3px;
+  }
+
+  .everything-left .sat-button .button-see {
+    width: 65px;
+    height: 21px;
+    font-size: 7px;
+    border-radius: 3px;
+    margin-left: 5px;
+  }
+
+  .everything-right {
+    width: 100%;
+    height: 60%;
+  }
+
+  .everything-right h1 {
+    font-size: 24px;
+    width: 220px;
+  }
+
+  .everything-right h1 .box-crop {
+    right: 30px;
+  }
+
+  .everything-right .box-section .box {
+    width: 327px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .everything-right .box-section .box img {
+    margin-right: 20px;
+  }
+}

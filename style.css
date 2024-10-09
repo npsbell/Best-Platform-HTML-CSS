@@ -1,0 +1,36 @@
+@import url(./componentsCSS/nav.css);
+@import url(./componentsCSS/header.css);
+@import url(./componentsCSS/featured.css);
+@import url(./componentsCSS/everything.css);
+@import url(./componentsCSS/intrigate&pricing.css);
+@import url(./componentsCSS/testimonial.css);
+@import url(./componentsCSS/cta.css);
+@import url(./componentsCSS/footer.css);
+
+/* font-family: "DM Sans", sans-serif;
+font-family: "Roboto", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #3b3b3b;
+}
+
+p {
+  color: #5a7184;
+}
+
+img,
+button {
+  cursor: pointer;
+}
+
+.flex-dev {
+  display: flex;
+  align-items: center;
+}

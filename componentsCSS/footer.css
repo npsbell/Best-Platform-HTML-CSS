@@ -1,0 +1,108 @@
+.Footer {
+  width: 100%;
+  height: 440px;
+  padding: 7% 4%;
+  justify-content: space-between;
+}
+
+.Footer .logo-box {
+  width: 30%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 3%;
+}
+
+.Footer .logo-box img {
+  align-self: flex-start;
+}
+
+.Footer .logo-box p {
+  line-height: 30px;
+}
+
+.Footer .logo-box .icon-box1 {
+  align-self: flex-start;
+  line-height: 30px;
+}
+
+.Footer p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.Footer .services-box,
+.company-box,
+.job-box,
+.contact-box {
+  width: 20%;
+  height: 100%;
+  padding-top: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.Footer h1 {
+  font-size: 20px;
+  font-weight: 900;
+  align-self: flex-start;
+}
+
+.Footer .job-box,
+.contact-box {
+  height: 77%;
+}
+
+.Footer .contact-box p span {
+  color: #3b3b3b;
+  font-weight: 500;
+}
+
+.Footer .contact-box .icon-box2 {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .Footer {
+    height: 1200px;
+    padding: 3% 4%;
+    flex-direction: column;
+  }
+
+  .Footer .logo-box {
+    width: 100%;
+    height: 10%;
+    justify-content: space-around;
+  }
+
+  .Footer .logo-box .icon-box1 {
+    display: none;
+  }
+
+  .Footer .services-box,
+  .company-box,
+  .job-box,
+  .contact-box {
+    width: 100%;
+    height: 20%;
+  }
+
+  .Footer .job-box,
+  .contact-box {
+    height: 15%;
+  }
+
+  .Footer .contact-box {
+    height: 30%;
+    justify-content: space-between;
+  }
+
+  .Footer .contact-box .icon-box2 {
+    display: block;
+    align-self: flex-start;
+    line-height: 30px;
+  }
+}

@@ -1,0 +1,235 @@
+.Header {
+  padding: 2% 4%;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+/*--------------header-left--------------*/
+
+.header-left {
+  width: 100%;
+  height: 450px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header-left h1 {
+  font-size: 70px;
+  font-weight: 900;
+  align-self: flex-start;
+  width: 500px;
+}
+
+.header-left button {
+  width: 206px;
+  height: 64px;
+  background: #ff7342;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  align-self: flex-start;
+}
+
+.header-left .brand-logo {
+  width: 100%;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+/*--------------header-right--------------*/
+
+.header-right {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.header-right .post-type {
+  position: absolute;
+  width: 170px;
+  height: 220px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 0px 14.87px 34.96px 0px #0000000d;
+  flex-direction: column;
+  top: -30px;
+  left: -30px;
+  justify-content: center;
+}
+
+.header-right .post-type h3 {
+  color: #183b56;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-right .post-type img {
+  margin-top: 15px;
+  width: 100px;
+  height: 108px;
+}
+
+.header-right .post-type .post-type-text {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 450;
+  color: #5a7184;
+  justify-content: center;
+  gap: 4px;
+}
+
+.header-right .post-type .post-type-text .org-dot {
+  width: 5.35px;
+  height: 5.35px;
+  border-radius: 50%;
+  background-color: #ff7342;
+  margin-right: 3px;
+}
+
+.header-right .total-link {
+  position: absolute;
+  background: #ffffff;
+  width: 200px;
+  height: 98px;
+  right: -3%;
+  top: 15%;
+  border-radius: 5px;
+  box-shadow: 0px 12.21px 28px 0px #0000000d;
+  padding: 20px;
+}
+
+.header-right .total-link-icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+.header-right .bg-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.header-right .icon {
+  position: absolute;
+  width: 15px;
+  height: 16px;
+  left: 35%;
+  top: 30%;
+}
+
+.header-right .total-link-text {
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-right .total-link-text p {
+  font-size: 13px;
+  font-weight: 450;
+  margin-top: 5px;
+}
+
+.header-right .statistic-pic {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 900px) {
+  .Header {
+    flex-direction: column-reverse;
+    margin-top: 2%;
+  }
+
+  .header-right {
+    width: 90%;
+    height: 90%;
+  }
+
+  .header-right .statistic-pic {
+    width: 95%;
+    height: 95%;
+  }
+
+  .header-right .post-type {
+    width: 30%;
+    height: 50%;
+  }
+  .header-right .post-type img {
+    object-fit: contain;
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .header-right .post-type h3 {
+    font-size: 14px;
+  }
+
+  .header-right .post-type .post-type-text {
+    font-size: 7px;
+  }
+
+  .header-right .total-link {
+    width: 30%;
+    height: 20%;
+    top: 10%;
+    padding: 3%;
+  }
+
+  .header-right .total-link-icon {
+    width: 30%;
+    height: 80%;
+  }
+
+  .header-right .bg-icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .header-right .icon {
+    width: 40%;
+    height: 40%;
+    left: 32%;
+  }
+
+  .header-right .total-link-text {
+    margin-left: 15%;
+  }
+
+  .header-right .total-link-text h3 {
+    font-size: 12px;
+  }
+
+  .header-right .total-link-text p {
+    font-size: 7px;
+  }
+
+  .header-left {
+    justify-content: space-around;
+  }
+
+  .header-left h1 {
+    font-size: 40px;
+    line-height: 120%;
+    width: 80%;
+  }
+
+  .header-left .brand-logo {
+    width: 80%;
+    gap: 30%;
+  }
+
+  .header-left .brand-logo img {
+    margin-bottom: 20px;
+  }
+}

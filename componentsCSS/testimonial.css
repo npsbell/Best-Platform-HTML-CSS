@@ -1,0 +1,75 @@
+.Testimonial {
+  width: 100%;
+  height: 850px;
+  padding: 3% 4%;
+  justify-content: center;
+}
+
+/*--------------test-left--------------*/
+.test-left {
+  width: 50%;
+  height: 60%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.test-left h1 {
+  font-size: 30px;
+  font-weight: 900;
+  align-self: flex-start;
+  line-height: 60px;
+}
+
+.test-left p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  align-self: flex-start;
+}
+
+.test-left .arrows {
+  align-self: flex-start;
+}
+
+.test-left .arrows .arrow2 {
+  width: 56px;
+  height: 56px;
+}
+
+/*--------------test-left--------------*/
+.test-right {
+  padding-left: 5%;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+}
+
+.test-right img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .Testimonial {
+    height: 1154px;
+    padding: 2% 3%;
+    flex-direction: column-reverse;
+  }
+
+  .test-left {
+    width: 100%;
+    height: 50%;
+    justify-content: space-evenly;
+  }
+
+  .test-right {
+    padding-left: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  .test-right img {
+    width: 85%;
+  }
+}
